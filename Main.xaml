@@ -75,7 +75,7 @@
       <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="837,1140" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="664,1140" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:Int32" Name="Number" />
     </Sequence.Variables>
@@ -84,7 +84,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="488,275" sap2010:WorkflowViewState.IdRef="InputDialog_1" IsPassword="False" Label="[Enter a Number]" Title="[Numbercheck]" TopMost="False">
+    <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="488,275" sap2010:WorkflowViewState.IdRef="InputDialog_1" IsPassword="False" Label="Enter a Num" Title="Numbercheck" TopMost="False">
       <ui:InputDialog.Result>
         <OutArgument x:TypeArguments="x:Int32">[Number]</OutArgument>
       </ui:InputDialog.Result>
